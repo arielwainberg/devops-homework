@@ -5,7 +5,8 @@
 import datetime
 now = datetime.datetime.now()
 currentyear = now.year
-dstage = 120
-name = input("What is your name?")
-age = input("How old are you?")
-print(f"{name}, at year {(currentyear) + int(age)}, you will be {dstage} years old")
+dstage = 120 
+name = input("What is your name? ")
+age = input("How old are you? ")
+calculate = dstage - int(age) +int(currentyear)
+print(f"{name}, at year {calculate}, you will be {dstage} years old")
